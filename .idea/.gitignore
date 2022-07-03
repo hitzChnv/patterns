@@ -22,3 +22,5 @@ jarRepositories.xml
 uiDesigner.xml
 
 ../java-origin-strategy/java-origin-strategy.iml
+
+../out
