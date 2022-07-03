@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+.idea/
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
@@ -12,15 +12,6 @@ modules.xml
 patterns.iml
 vcs.xml
 
-sonarlint/issuestore
+java-origin-strategy/java-origin-strategy.iml
 
-libraries
-
-compiler.xml
-encodings.xml
-jarRepositories.xml
-uiDesigner.xml
-
-../java-origin-strategy/java-origin-strategy.iml
-
-../out
+out
