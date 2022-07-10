@@ -17,7 +17,7 @@ public class SwordBehavior implements WeaponBehavior {
     }
 
     @Override
-    public boolean isFetch(WeaponType type) {
-        return SWORD.equals(type);
+    public WeaponType getWeaponType() {
+        return SWORD;
     }
 }

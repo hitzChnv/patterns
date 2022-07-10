@@ -17,7 +17,7 @@ public class BowAndArrowBehavior implements WeaponBehavior {
     }
 
     @Override
-    public boolean isFetch(WeaponType type) {
-        return BOW_AND_ARROW.equals(type);
+    public WeaponType getWeaponType() {
+        return BOW_AND_ARROW;
     }
 }

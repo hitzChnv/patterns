@@ -1,23 +1,21 @@
 package ru.chernov.springstrategy.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 import ru.chernov.springstrategy.enums.WeaponType;
 import ru.chernov.springstrategy.service.WeaponBehavior;
 
-import static ru.chernov.springstrategy.enums.WeaponType.KNIFE;
+import static ru.chernov.springstrategy.enums.WeaponType.DAGGERS;
 
 @Slf4j
-@Component
-public class KnifeBehavior implements WeaponBehavior {
+public class DaggersBehavior implements WeaponBehavior {
 
     @Override
     public void useWeapon() {
-        log.info("Now using KNIFE to fight!");
+        log.info("Now using DAGGERS to fight!");
     }
 
     @Override
     public WeaponType getWeaponType() {
-        return KNIFE;
+        return DAGGERS;
     }
 }

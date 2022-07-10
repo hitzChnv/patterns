@@ -17,7 +17,7 @@ public class AxeBehavior implements WeaponBehavior {
     }
 
     @Override
-    public boolean isFetch(WeaponType type) {
-        return AXE.equals(type);
+    public WeaponType getWeaponType() {
+        return AXE;
     }
 }
