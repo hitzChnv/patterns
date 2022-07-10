@@ -1,6 +1,6 @@
 package ru.chernov.observer.service.impl;
 
-import ru.chernov.observer.library.WeatherData;
+import ru.chernov.observer.domain.WeatherData;
 import ru.chernov.observer.service.DisplayElement;
 import ru.chernov.observer.service.Observer;
 import ru.chernov.observer.service.Subject;

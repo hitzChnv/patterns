@@ -1,4 +1,4 @@
-package ru.chernov.observer.library;
+package ru.chernov.observer.domain;
 
 import ru.chernov.observer.service.Observer;
 import ru.chernov.observer.service.Subject;

@@ -1,6 +1,6 @@
 package ru.chernov.observer.service;
 
-import ru.chernov.observer.library.WeatherData;
+import ru.chernov.observer.domain.WeatherData;
 
 public interface Subject {
 

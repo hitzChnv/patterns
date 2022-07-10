@@ -1,6 +1,6 @@
 package ru.chernov.observer;
 
-import ru.chernov.observer.library.WeatherData;
+import ru.chernov.observer.domain.WeatherData;
 import ru.chernov.observer.service.impl.CurrentConditionsDisplay;
 
 import static ru.chernov.observer.util.MyLogger.log;
