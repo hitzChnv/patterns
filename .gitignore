@@ -13,5 +13,10 @@ patterns.iml
 vcs.xml
 
 java-origin-strategy/java-origin-strategy.iml
+java-origin-strategy/target
+java-origin-observer/java-origin-observer.iml
+java-origin-observer/target
+java-origin-decorator/java-origin-decorator.iml
+java-origin-decorator/target
 
 out
