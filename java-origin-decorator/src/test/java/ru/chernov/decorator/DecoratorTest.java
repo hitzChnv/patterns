@@ -2,6 +2,7 @@ package ru.chernov.decorator;
 
 import org.apache.log4j.BasicConfigurator;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.chernov.decorator.domain.Beverage;
 import ru.chernov.decorator.domain.Espresso;
@@ -19,6 +20,7 @@ class DecoratorTest {
     }
 
     @Test
+    @DisplayName("Реализация паттерна 'Декоратор'")
     void decoratorTest() {
         Beverage beverage = new Espresso();
         assertEquals("Espresso", beverage.getDescription());

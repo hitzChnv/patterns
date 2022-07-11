@@ -17,7 +17,7 @@ class ObserverTest {
     }
 
     @Test
-    @DisplayName("Реализация паттерна наблюдатель - все наблюдатели должны получить текущие изменения")
+    @DisplayName("Реализация паттерна 'Наблюдатель' - все наблюдатели должны получить текущие изменения")
     void shouldNotifyAllObservers() {
         var weatherData = new WeatherData();
         new CurrentConditionsDisplay(weatherData);
