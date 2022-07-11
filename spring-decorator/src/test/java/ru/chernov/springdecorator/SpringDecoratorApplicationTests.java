@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class SpringDecoratorApplicationTests {
 
     @Test
-    @DisplayName("Реализация паттерна декоратор, пока что без учёта возможностей спринга")
+    @DisplayName("Реализация паттерна 'Декоратор', пока что без учёта возможностей спринга")
     void decoratorTest() {
         BeverageService beverageService = new DarkRoastServiceImpl();
         assertEquals("Dark roast", beverageService.generateDescription());
