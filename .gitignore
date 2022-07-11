@@ -14,9 +14,12 @@ vcs.xml
 
 java-origin-strategy/java-origin-strategy.iml
 java-origin-strategy/target
+spring-strategy/.gitignore
 java-origin-observer/java-origin-observer.iml
 java-origin-observer/target
+spring-observer/.gitignore
 java-origin-decorator/java-origin-decorator.iml
 java-origin-decorator/target
+spring-decorator/.gitignore
 
 out
