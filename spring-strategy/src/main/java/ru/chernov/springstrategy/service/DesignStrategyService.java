@@ -21,7 +21,9 @@ public class DesignStrategyService {
     private final Map<String, WeaponBehavior> weaponBehaviors;
 
     public DesignStrategyService(List<WeaponBehavior> behaviors) {
-        this.weaponBehaviors = behaviors.stream().collect(toMap(b -> b.getWeaponType().name(), identity()));
+        this.weaponBehaviors = behaviors.stream().collect(
+                toMap(WeaponBehavior::getWeaponType, identity())
+        );
     }
 
     public void perform() {
