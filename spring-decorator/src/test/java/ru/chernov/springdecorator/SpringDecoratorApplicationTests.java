@@ -7,6 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import ru.chernov.springdecorator.service.BeverageService;
 import ru.chernov.springdecorator.service.decorators.MilkServiceImpl;
 import ru.chernov.springdecorator.service.decorators.SoyServiceImpl;
+import ru.chernov.springdecorator.service.decorators.SugarServiceImpl;
 import ru.chernov.springdecorator.service.decorators.WhipServiceImpl;
 import ru.chernov.springdecorator.service.impl.DarkRoastServiceImpl;
 
@@ -33,5 +34,9 @@ class SpringDecoratorApplicationTests {
         beverageService = new WhipServiceImpl(beverageService);
         assertEquals("Dark roast, Milk, Soy, Whip", beverageService.generateDescription());
         assertEquals(5.5, beverageService.calculateCost());
+
+        beverageService = new SugarServiceImpl(beverageService);
+        assertEquals("Dark roast, Milk, Soy, Whip, Sugar", beverageService.generateDescription());
+        assertEquals(6.0, beverageService.calculateCost());
     }
 }
